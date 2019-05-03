@@ -8,7 +8,7 @@ public class Oblig6 {
         
         OrdListe list=new OrdListe();
         
-        list.lesBok("/home/nablis/oblig6/scarlet.txt");
+        list.lesBok("oblig6/scarlet.txt");
         
          System.out.println("the number of unike words are " + list.getunik());
 
